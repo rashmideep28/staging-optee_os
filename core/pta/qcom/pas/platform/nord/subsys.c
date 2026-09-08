@@ -10,13 +10,8 @@
 
 #include "camera.h"
 #include "iris.h"
-#include "nspss0.h"
-#include "nspss1.h"
-#include "nspss2.h"
-#include "nspss3.h"
-#include "hpass0.h"
-#include "hpass1.h"
-#include "hpass2.h"
+#include "hpass.h"
+#include "nspss.h"
 #include "pas_subsys.h"
 
 static struct qcom_pas_subsys subsystems[] = {

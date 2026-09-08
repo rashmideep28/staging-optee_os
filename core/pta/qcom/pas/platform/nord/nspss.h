@@ -3,11 +3,14 @@
  * Copyright (c) 2026, Qualcomm Technologies, Inc. and/or its subsidiaries.
  */
 
-#ifndef _NSPSS1_H_
-#define _NSPSS1_H_
+#ifndef _NSPSS_H_
+#define _NSPSS_H_
 
 #include "pas_subsys.h"
 
+extern const struct qcom_pas_ops nspss0_ops;
 extern const struct qcom_pas_ops nspss1_ops;
+extern const struct qcom_pas_ops nspss2_ops;
+extern const struct qcom_pas_ops nspss3_ops;
 
-#endif /* _NSPSS1_H_ */
+#endif /* _NSPSS_H_ */

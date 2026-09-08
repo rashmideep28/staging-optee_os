@@ -1,5 +1,8 @@
 # Nord (SA8797P / Oryon) OP-TEE platform.
 
+CFG_DRIVERS_CLK ?= y
+CFG_DRIVERS_QCOM_CLK ?= y
+
 # Threads are expensive in OP-TEE, so they don't have
 # to be same as number of cores.
 $(call force,CFG_TEE_CORE_NB_CORE,18)
@@ -10,4 +13,6 @@ $(call force,CFG_TEE_CORE_NB_CORE,18)
 # in OP-TEE for that.
 CFG_TZDRAM_START ?= 0xBC600000
 CFG_TEE_RAM_VA_SIZE ?= 0x00200000
-CFG_TA_RAM_VA_SIZE ?= 0x07800000
+CFG_TA_RAM_VA_SIZE ?= 0x07B80000
+
+CFG_QCOM_PAS_PTA ?= y

@@ -13,4 +13,9 @@ extern const struct qcom_pas_ops nspss1_ops;
 extern const struct qcom_pas_ops nspss2_ops;
 extern const struct qcom_pas_ops nspss3_ops;
 
+extern const struct qcom_pas_ops nspss0_dtb_ops;
+extern const struct qcom_pas_ops nspss1_dtb_ops;
+extern const struct qcom_pas_ops nspss2_dtb_ops;
+extern const struct qcom_pas_ops nspss3_dtb_ops;
+
 #endif /* _NSPSS_H_ */

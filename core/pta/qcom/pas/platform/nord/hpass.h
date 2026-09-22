@@ -12,4 +12,8 @@ extern const struct qcom_pas_ops hpass0_ops;
 extern const struct qcom_pas_ops hpass1_ops;
 extern const struct qcom_pas_ops hpass2_ops;
 
+extern const struct qcom_pas_ops hpass0_dtb_ops;
+extern const struct qcom_pas_ops hpass1_dtb_ops;
+extern const struct qcom_pas_ops hpass2_dtb_ops;
+
 #endif /* _HPASS_H_ */

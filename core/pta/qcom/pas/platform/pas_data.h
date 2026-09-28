@@ -10,6 +10,7 @@
 #include <drivers/clk_qcom.h>
 #include <mm/core_memprot.h>
 #include <stdint.h>
+#include <stdbool.h>
 
 #define PAS_ID_QDSP6		1
 #define PAS_ID_WPSS		6
@@ -47,6 +48,7 @@ struct qcom_pas_data {
 	paddr_t fw_base;
 	size_t fw_size;
 	enum qcom_clk_group clk_group;
+	bool secure;
 };
 
 #endif /* _PAS_DATA_H_ */
